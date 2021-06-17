@@ -1,3 +1,5 @@
+const prompt = require('prompt-sync')({ sigint: true });
+
 let inputArray = [ ] ;
 let size = prompt( '5') ;
 
